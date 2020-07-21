@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Posts
+{% endblock %}
+
+{% block page %}
+All posts
+{% endblock %}
+
+{% block body %}
+<div> 
+
+          {% if articles|length > 0 %}
+
+                    {% for el in articles %}
+                    <div id='post'>
+                              <h2>{{ el.title }}</h2>
+                              <p>{{ el.intro }}</p>
+                              <p><b>Date: {{ el.date.date() }}</b></p>
+                              <a href="/posts/{{ el.id }}">Full post</a>
+                    </div>
+                    {% endfor %}
+          {% else %}
+                    <div id='noart'>
+                              <p>No articles yet</p>
+                    </div>
+          {% endif %}
+</div>
+{% endblock %}

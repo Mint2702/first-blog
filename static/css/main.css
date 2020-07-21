@@ -1,0 +1,139 @@
+@font-face{
+          font-family: 'Special';
+          src: url('../fonts/19635.ttf');
+}
+
+@font-face{
+          font-family: 'Page';
+          src: url('../fonts/19471.ttf');
+}
+
+body,html{
+          background: #c8ccdb;
+          padding: 0;
+          margin: 0;
+}
+
+header{
+          background: #394366;
+          height: 70px;
+          width: 100%;
+          padding: 0 0;
+          border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+footer{
+          margin-bottom: 0;
+          background: #525661;
+          height: 170px;
+          width: 100%;
+          padding: 0 0;
+          border-top: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+
+#middle{
+          height: 1100px;
+}
+
+#logo{
+          font-family: 'Special',sans-serif;
+          width: 1100px;
+          margin: 0 auto;
+          height: 70px;
+}
+
+#mainName{
+          align-items: center;
+          flex-direction: row;
+          display: flex;
+          float: left;
+          height: 70px;
+}
+
+#mainName a{
+          padding: 0 10px;
+          line-height: 70px;
+          font-size: 27px;
+          outline: none;
+          text-decoration: none;
+          color: #8eeded;
+          display: block;
+          border-left: 2px solid rgba(0, 0, 0, 0.25);
+          border-right: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+#mainName a:hover{
+          background: #747ea3;
+}
+
+
+#DM{
+          align-items: center;
+          flex-direction: row;
+          display: flex;
+          float: right;
+          height: 70px;
+}
+
+#DM a{    
+          display: block;
+          padding: 0 10px;
+          font-size: 16px;
+          color:#8eeded;
+          line-height: 70px;
+          outline: none;
+          text-decoration: none;
+          border-left: 2px solid rgba(0, 0, 0, 0.25);
+          border-right: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+#DM a:hover{
+          background: #747ea3;
+}
+
+#PageName{
+          font-family: "Page";
+          margin-top: 50px;
+          font-size: 27px;
+          text-align: center;
+          width: 100%;
+}
+
+#footerMain{
+          text-align: center;
+          font-family: 'Special',sans-serif;
+          width: 1100px;
+          margin: 0 auto;
+          height: 150px;
+}
+
+#post{
+          height: 200px;
+          margin: 20px;
+          border-top: 2px solid rgba(0, 0, 0, 0.25);
+          border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+#noart{
+          font-family: 'Paage',sans-serif;
+          text-align: center;
+          margin-top: 100px;
+          font-size: 27px;
+}
+
+#fullpost{
+          margin-left: 20px;
+          margin-top: 50px;
+}
+
+#aboutText{
+          text-align: center;
+          margin-top: 50px;
+}
+
+#newArticle{
+          margin-top: 50px;
+          margin-left: 20px;
+
+}
